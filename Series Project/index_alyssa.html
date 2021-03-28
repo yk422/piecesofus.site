@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Pieces of Us Alyssa</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style_alyssa.css"/>
+  </head>
+
+  <div class="popup">
+    <a href="#open-modal">About<br>Work</a>
+    <div id="open-modal" class="modal-window">
+    <div>
+      <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+      <h1>Title: <br>The View from My Window</h1>
+      <div>This is an exerpt from my daily journal. Although I cannot control many things in life,
+        like how there is the large McCarter building preventing me from seeing the
+          sky and the sunset, I will try to continue to find the good in every bad.
+         </div>
+    </div>
+    </div>
+  </div>
+
+<body class="index">
+  <div class="alyssapagefiller">
+  </div>
+  <div class="alyssapage1">
+  <a href="index.html"<h1 id="left">Pieces of Us</h1></a>
+  <h1 id="right">From Alyssa</h1>
+  <p id="alyssatext">It’s 5:19 right now. <br>
+    The sun is setting. <br>
+    The sky is baby blue with a warm orange ombre <br>
+    at the toes of the sky. <br> <br> <br>
+    I wish McCarter was not built in front of my windows <br>
+    so that I could enjoy the sun setting.<br> <br> <br>
+    It’s a great building and all but <br>
+    the sunset is more beautiful. <br> <br> <br>
+    I guess I can see the sunset anywhere else but <br>
+    I can only see McCarter in person here at Princeton.<br>
+    I’ll stop complaining about the view.
+  </p>
+  </div>
+
+  <div id="brick-container">
+  <img src="wall.png">
+  </div>
+
+  <div id="respond">
+    <h3>Leave a Comment</h3>
+    <form action="post_comment.php" method="post" id="commentform">
+
+      <label for="comment_author" class="required">Name</label>
+      <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+      <label for="email" class="required">Email</label>
+      <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+      <label for="comment" class="required">Message</label>
+      <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+      <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+      <input name="submit" type="submit" value="Submit comment" />
+    </form>
+  </div>
+
+</body>
+</html>

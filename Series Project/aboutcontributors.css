@@ -1,0 +1,97 @@
+body {
+font-family:"mansalvaregular";
+background: #FCFCEE;
+}
+
+@font-face {
+    font-family: 'mansalvaregular';
+    src: url('mansalva-regular-webfont.woff2') format('woff2'),
+         url('mansalva-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 15px;
+  margin-top: 100px;
+}
+
+.heading {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#left {
+  font-size: 25px;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+.index {
+  margin-bottom: 100px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.box p {
+    width: 70%;
+  font-size: 20px;
+  color: #444;
+  margin-left: 120px;
+}
+
+.box img {
+  width: 30%;
+  margin-left: 70px;
+
+}
+
+.box.ally {
+  background: pink;
+}
+
+.box.annie {
+  background: #DDDDDF;
+}
+
+.box.alyssa {
+  background: #bdc239;
+}
+
+.box.julie {
+  background: #fcedc5;
+}
+.box.peter {
+  background: #9bc4ec;
+}
+
+.box img {
+  width: 120px;
+}
+
+#hippo {
+  width: 120px;
+}
+
+#rabbit {
+  width: 120px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: "Manjari";
+  text-align: center;
+}

@@ -1,0 +1,230 @@
+body {
+text-align: center;
+font-family:"mansalvaregular";
+background: #FCFCEE;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.index {
+  background: #FCFCEE;
+}
+
+#strokeimage {
+  align-content: center;
+  position: relative;
+  top: -170px;
+  z-index: -1;
+  width: 200px;
+}
+
+#aboutwebsite {
+  width: 50%;
+  float: left;
+}
+
+#contributors {
+    width: 50%;
+  float: right;
+}
+
+.filler {
+  width: 100%;
+  padding: 40px;
+}
+
+.filler2 {
+  width: 100%;
+  padding: 1px;
+}
+
+.pictures {
+  float: left;
+  width: 33.33%;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+
+.writing {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.writing.ally {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: pink;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.writing.annie {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #DDDDDF;
+  border-radius: 50%;
+  position: relative;
+}
+
+.writing.peter {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #9bc4ec;
+  border-radius: 50%;
+}
+
+.writing.julie {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #fcedc5;
+  border-radius: 50%;
+}
+
+.writing.alyssa {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #bdc239;
+  border-radius: 50%;
+}
+
+.writing.ally.no {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #FCFCEE;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.writing.annie.no {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #FCFCEE;
+  border-radius: 50%;
+  position: relative;
+}
+
+.writing.peter.no {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #FCFCEE;
+  border-radius: 50%;
+}
+
+.writing.julie.no {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #FCFCEE;
+  border-radius: 50%;
+}
+
+.writing.alyssa.no {
+  float: left;
+  width: 20%;
+  height:230px;
+  background: #FCFCEE;
+  border-radius: 50%;
+}
+
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: "Manjari";
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'mansalvaregular';
+    src: url('mansalva-regular-webfont.woff2') format('woff2'),
+         url('mansalva-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.maintext {
+  margin-top: 40px;
+  padding-top:40px;
+}
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(200, 200, 200, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #fff;
+  color: #444;
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}

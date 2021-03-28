@@ -1,0 +1,49 @@
+body {
+font-family:"mansalvaregular";
+}
+
+@font-face {
+    font-family: 'mansalvaregular';
+    src: url('mansalva-regular-webfont.woff2') format('woff2'),
+         url('mansalva-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.image {
+  align-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#left {
+  font-size: 25px;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+#right {
+  font-size: 20px;
+  top: 15px;
+  right: 30px;
+  position:fixed;
+}
+
+h2 {
+  font-size: 15px;
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

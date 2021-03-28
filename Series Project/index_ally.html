@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Pieces of Us Ally</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style_ally.css"/>
+  </head>
+
+  <div class="popup">
+    <a href="#open-modal">About<br>Work</a>
+    <div id="open-modal" class="modal-window">
+    <div>
+      <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+      <h1>Title: <br>Identity</h1>
+      <div>This short work depicts my ongoing internal struggle
+        to figure out what kind of person I am. Nonetheless, I believe that the process of self discovery
+        is one of the most meaningful journeys that we take in our lives.</div>
+    </div>
+    </div>
+  </div>
+
+<body class="index">
+  <a href="index.html"<h1 id="left">Pieces of Us</h1></a>
+  <h1 id="right">From Ally</h1>
+
+ <div class="allypage1">
+   <p id="1">*</p>
+   <p>The world is full of color.</p>
+   <img src="watercolor.png" alt="color palette" width="500">
+   <a href="#2">
+   <h2>Page 1 - Next Page</h2></a>
+ </div>
+
+ <div class="allypage2">
+   <p id="2">*</p>
+   <img id="page2circle" src="circle.png" alt="circle" width="350">
+   <p id="page2word">If I had a color, I wonder what color I would be.</p>
+   <a href="#3">
+   <h2>Page 2 - Next Page</h2></a>
+ </div>
+
+<div class="allypage3">
+  <p id="3">*</p>
+ <img id="page3circle" src="longcircle.png" alt="circle" width="350">
+ <p id="page3word">To be honest, I am scared that I might be colorless.</p>
+ <a href="#4">
+ <h2>Page 3 - Next Page</h2></a>
+</div>
+
+<div class="allypage4">
+  <p id="4">*</p>
+ <img id="page4circle" src="wave.png" alt="wave" width="800" >
+ <p id="page4word">What do I love? What do I hate? <br>
+   There are so many things about myself <br>
+   that I don't know.</p>
+   <a href="#5">
+   <h2 id="page4nextpage">Page 4 - Next Page</h2></a>
+</div>
+
+<div class="allypage5">
+  <p id="5">*</p>
+ <p id="page5word">Who is the real me? Which is the true me?</p>
+  <h2> Page 5</h2>
+</div>
+
+<div id="respond">
+  <h3>Leave a Comment</h3>
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Email</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+  </form>
+</div>
+
+</body>
+</html>
