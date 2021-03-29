@@ -46,7 +46,9 @@ a {
   margin-top: 150px;
   margin-bottom: 100px;
   z-index: -1;
-  background: url("money4.png")
+  background: url("money4.png");
+  background-size: 500px;
+
 }
 
 .anniepage2 {
@@ -79,7 +81,8 @@ margin-bottom: 50px;
   margin-top: 150px;
   margin-bottom: 100px;
   background: url("box.png");
-    background-size: 80px;
+    background-size: 420px;
+    justify-content: center;
     z-index: -1;
 
 }
