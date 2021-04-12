@@ -4,7 +4,7 @@ font-family:"mansalvaregular";
 }
 
 .index {
-  background-color:#f0f8ff;
+  background-color:#FFE6EE;
 }
 
 .popup {
@@ -58,8 +58,7 @@ a {
 .allypage2 {
   width: 100%;
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 100px;
+  margin-top: 350px;
   z-index: -1;
 }
 
@@ -80,7 +79,7 @@ left: -200px;
   width: 100%;
   text-align: center;
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 
 }
 
