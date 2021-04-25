@@ -21,12 +21,17 @@ h1 {
 }
 
 #aboutwebsite {
-  width: 50%;
+  width: 33%;
   float: left;
 }
 
 #contributors {
-    width: 50%;
+    width: 33%;
+  float: right;
+}
+
+#gathering{
+    width: 33%;
   float: right;
 }
 
