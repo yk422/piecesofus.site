@@ -27,11 +27,12 @@ h1 {
 
 #contributors {
     width: 33%;
-  float: right;
+  float: none;
 }
 
 #gathering{
     width: 33%;
+    float: right;
 }
 
 .filler {
